@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(241, 66, 95)
+}
+
+.backHome{
+    color: white;
+    margin-right: -20px;
+     margin-left: -8px;
+     margin-top: -8px;
+     background-color:rgba(65, 0, 20, 0.959);
+     width: width;
+     font-family: "Bebas Neue";
+}
+
+#homeButton{
+    text-decoration: none;
+  color: white;  
+}
+
+#homeButton:hover{
+    color: gray;
+    opacity: 0.75;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+
+#image{
+    display:flex;
+    justify-content: center;
+}
+
+#title{
+    display:flex;
+    justify-content: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.factsList{
+    font-size: 25px;
+}
+
+li{
+    padding: 20px;
+}
+@media(max-width: 645px){
+    h1{
+        display:flex;
+        justify-content:center;
+    }
+}
+

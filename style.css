@@ -1,0 +1,68 @@
+#map{
+    height: 500px;
+    width: 500px;
+}
+
+#zipInput{
+    display:flex;
+}
+body{
+    background-color: rgb(241, 66, 95)
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+#facilities{
+    display:flex;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: bold;
+}
+
+img{
+    margin-top: 5px;
+
+    width: 75px;
+    height: 75px;
+}
+.upperHalf{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    margin-left: 150px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: gray;
+    opacity: 0.75;
+}
+.navBar{
+    color: white;
+   margin-right: -20px;
+    margin-left: -4px;
+    margin-top: -8px;
+    background-color:rgba(65, 0, 20, 0.959);
+    width: width;
+    font-family: "Bebas Neue";
+}
+
+
+
+
+@media (max-width: 645px){
+    #allignment{
+        justify-content: column;
+
+    }
+
+} 

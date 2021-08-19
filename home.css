@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(241, 66, 94);
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/06/12/07/44/red-lotus-3470073_1280.png"); */
+
+}
+#image{
+    display:flex;
+    justify-content: center;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+   margin-right: -20px;
+    margin-left: -8px;
+    margin-top: 5px;
+    background-color:rgba(65, 0, 20, 0.959);
+    width: width;
+    font-family: "Bebas Neue";
+}
+
+.navNames{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navNames:hover{
+    color: gray;
+    opacity: 0.75;
+}
+
+img{
+    margin-top: -15px;
+
+    width: 75px;
+    height: 75px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    line-height:18px;
+    font-family: Arial;
+
+}
+
+h1 {
+    text-align:center;
+    color: red;
+
+}
+
+@media (max-width: 645px){
+    #allignment{
+        justify-content: column;
+    }
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+

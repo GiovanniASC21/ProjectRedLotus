@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+​
+    <title>Abuse Prevention Messages</title>
+​
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+​
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+​
+​
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDF0oucSJARUifVIfOgNRxLpa3SDRlXPd4",
+    authDomain: "database-for-abuse.firebaseapp.com",
+    projectId: "database-for-abuse",
+    storageBucket: "database-for-abuse.appspot.com",
+    messagingSenderId: "1068715000393",
+    appId: "1:1068715000393:web:4611caa3e584aadbd17598"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+​
+    <script src="community.js" defer></script>
+    <link rel="stylesheet" href="community.css">
+</head>
+<body>
+​
+    <h1>Others like you</h1>
+​
+    <div class="allMessages">
+        
+    </div>
+    
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Your name:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Message:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
